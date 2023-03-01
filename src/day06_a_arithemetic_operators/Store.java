@@ -8,8 +8,8 @@ public class Store {
         int numberOfTv= 100;
         System.out.println("I have a total of" + numberOfTv + "Tvs");
         System.out.println(" person comes to store and they bout one Tv");
-    }
 
     }
 
-    // test
+    }
+

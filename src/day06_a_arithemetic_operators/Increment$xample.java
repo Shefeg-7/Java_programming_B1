@@ -5,7 +5,7 @@ public class Increment$xample {
          int x = 0;
         System.out.println(x );// 0
         System.out.println( x=4); // 4
-        x= x+1 =5
+        //x= x+1 =5
         System.out.println();
 
 
