@@ -12,7 +12,7 @@ public class Biggest {
 
         if(num1>= num2 && num1 >= num3) {
             System.out.println(num1 + "is the biggest one");
-        } else if (num2>=num1 && num2>==num3){
+        } else if (num2>=num1 && num2>=num3){
         }
 
 

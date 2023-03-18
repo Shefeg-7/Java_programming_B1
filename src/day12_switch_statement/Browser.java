@@ -10,7 +10,7 @@ public class Browser {
         Scanner input= new Scanner( System.in);
         String browser = input.next();
         System.out.println(" Enter your browser");
-        String browser = input.next();
+
 
 
 

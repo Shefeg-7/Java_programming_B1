@@ -5,7 +5,7 @@ public class StringMethod {
         String name ="James";
         System.out.println(name.equals ("James"));// true
         System.out.println("cat".equals ("dog")); // false
-        System.out.println((name.equals("james")); // false because  james wit lower case
+        System.out.println(name.equals("james")); // false because  james wit lower case
         // how to compare 2 strings ignoring case senstveness
 
 

@@ -47,7 +47,9 @@ check if it is a valid website
                         "\n.net");
 
 
+            }
+        }
+
+
     }
 }
-
-

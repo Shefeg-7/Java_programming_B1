@@ -27,7 +27,7 @@ public class ChooseLanguage {
             System.out.println(" Hola, gracias por la llamada .");
         }else if ( languageNum==3) {
             System.out.println(" Privet, Spasibo za vash zvonok");
-        }else if ( lanuageNum == 5) {
+        }else if ( languageNum == 5) {
             System.out.printf("Mersi Bacu");
         }else{
             System.out.println("Invalid input");

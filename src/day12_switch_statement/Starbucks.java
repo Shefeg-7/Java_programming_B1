@@ -36,7 +36,7 @@ public class Starbucks {
         System.out.println("What size drink they want");
         String size = input.next();
 
-    String size =input.next();
+
     boolean isSize =true;
 
         switch (size) {
@@ -64,4 +64,3 @@ public class Starbucks {
     }
 
 
-}
