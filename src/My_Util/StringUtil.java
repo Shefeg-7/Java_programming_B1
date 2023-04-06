@@ -13,22 +13,39 @@ public class StringUtil {
         }
         return reversed;
     }
+
     /**
      * This method made by Loopcamp Batch#1
      * This method accepts a String parameter and puts it in a format
      * Ex:
-     *      The format will be like this
-     *
-     *      First letter is in upper case and rest is in lower case
-     *
+     * The format will be like this
+     * <p>
+     * First letter is in upper case and rest is in lower case
+     * <p>
      * Then return a String in a formatted way.
      */
-    public static String fixFormat (String str) { // feyruz  -- F
+    public static String fixFormat(String str) { // feyruz  -- F
         String fixed = str.trim();
         fixed = str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
         return fixed;
+
+
+
+    }
+    public static int frequencyOfCharacter (String str,char ch){
+        // "aabbaacca", 'a'
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ch) {
+                count++;
+            }
+        }
+        return count;
+
     }
 }
+
+
 
 
 
