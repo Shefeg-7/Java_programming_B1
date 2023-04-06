@@ -5,7 +5,7 @@ public class ReverseSentence {
         //                 methods useful some learned we and Wednesday is Today
 
         String [] words = sentence.split(" ");
-        System.out.println(Arrays.toString(words));
+     //   System.out.println(Arrays.toString(words));
 
         String reversed = "";
 

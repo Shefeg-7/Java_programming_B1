@@ -1,7 +1,7 @@
 package day20_nested_loops;
 
 public class UniqueCharacters {
-
+/*
 
     String str = "AAABCC";  // 10 characters
 //            0123456789
@@ -39,3 +39,5 @@ public class UniqueCharacters {
 
 
         }
+*/
+}

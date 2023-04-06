@@ -2,16 +2,11 @@ package day19_nested_loops;
 
 public class CodeSharing {
     public static void main(String[] args) {
+      /*  String word = "applea";
+        String unique = "";
 
-    }
-
-    String word = "applea";
-    String unique = "";
-
-
-        for(
-    int i = (0; i<word.length(); i++){
-
+        for(int i =0; i<word.length(); i++){
+        }
 
 
         int count = 0;
@@ -34,4 +29,7 @@ public class CodeSharing {
         System.out.println(letter + " - " + count);
         unique += letter;
     }
-}
+
+  */
+    }
+    }

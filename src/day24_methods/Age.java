@@ -2,16 +2,6 @@ package day24_methods;
 
 import java.util.Scanner;
 
-public class Age {
-    public static void calculateAge(int year){
-        Scanner input=new Scanner(System.in);
-        int currentYear=2023;
-        int bornYear= 1972
-        int yourAge= currentYear-bornYear;
-
-
-    }
-}
 /*
     make a method that accepts a number / year
     and calculates how old you are
@@ -38,7 +28,7 @@ public class Age {
         int length = name.length();
 
         System.out.println("------------------");
-        calculateAge(1960);
+        calculateAge(1960,  2023);
         calculateAge(1900, 2023);
 
 
