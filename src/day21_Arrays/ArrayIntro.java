@@ -14,8 +14,6 @@ public class ArrayIntro {
         String city6 = "Gaithersburg";
 
 
-
-
         System.out.println("----------------------------");
         //Declaring the arrays
 
@@ -23,7 +21,7 @@ public class ArrayIntro {
 
         // String cities [] = {"Fairfax", "New York","Alexandria", "Bethesda", "Reston", "Gaithersburg"}; // Pay attention to square bracket [] location. This is another way to declare.
 
-        String [] cities = {"Fairfax", "New York","Alexandria", "Bethesda", "Reston", "Gaithersburg"};  // 6 elements
+        String[] cities = {"Fairfax", "New York", "Alexandria", "Bethesda", "Reston", "Gaithersburg"};  // 6 elements
 
 
         // How can I reach each element ?
@@ -34,9 +32,6 @@ public class ArrayIntro {
         System.out.println(cities[4]);              //  {"Fairfax", "New York","Alexandria", "Bethesda", "Reston", "Gaithersburg"};
         System.out.println(cities[5]);              //      0            1         2              3           4            5
         //System.out.println(cities[6]);              //  cities[6] --- > Exception
-
-
-
 
 
         System.out.println("----------------------------");
@@ -55,11 +50,10 @@ public class ArrayIntro {
         System.out.println(allCities);
 
 
-        System.out.println(Arrays.toString(cities).substring(1, Arrays.toString(cities).length()-1));
-
-
-
+        System.out.println(Arrays.toString(cities).substring(1, Arrays.toString(cities).length() - 1));
 
 
         System.out.println("----------------------------");
 
+    }
+}

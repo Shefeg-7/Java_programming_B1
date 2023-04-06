@@ -10,6 +10,6 @@ public class SelectMonth {
         System.out.println("Enter which month number you want:");
         int monthNum=input.nextInt();
 
-       String[] allMonths ={"January","February",""}
+       String[] allMonths ={"January","February",""};
     }
 }

@@ -1,6 +1,6 @@
 package day24_office_hours;
 
-public class NumberWords {
+
     /*
     Write a method that accepts a number between 1 and 10
     And it returns the number as a word.
@@ -11,7 +11,7 @@ public class NumberWords {
         Four
 
  */
-    public class NumberWords
+    public class NumberWords {
 
         public static String numWord(int num) {  // 2
 
@@ -32,7 +32,7 @@ public class NumberWords {
         }
 
 
-        public static void main(String[] args) {
+  /*      public static void main(String[] args) {
             numWord(1);
             String result = numWord(2);
 
@@ -51,8 +51,8 @@ public class NumberWords {
             int userNum = input.nextInt();
             System.out.println(numWord(userNum));
         }
-
+*/
 
     }
-}
+
 

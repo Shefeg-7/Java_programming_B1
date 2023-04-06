@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class StudentInformation {
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        Arrays
+        Scanner input =new Scanner(System.in);
+
         String[] student1 = {"B001", "Tom", "Jerry", "B#1"};
         System.out.println("This is the info for Student 1: " + Arrays.toString(student1));
         //System.out.println(student1);  // it is a hashcode -- location in memory
@@ -24,18 +24,18 @@ public class StudentInformation {
         System.out.println("-------------------------------");
 
         String[] student3 = new String[4];
-        Scanner input = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter ID:");
-        student3[0] = input.next();
+        student3[0] = scan.next();
 
         System.out.print("Enter Name:");
-        student3[1] = input.next();
+        student3[1] = scan.next();
 
         System.out.print("Enter Lastname:");
-        student3[2] = input.next();
+        student3[2] = scan.next();
 
         System.out.print("Enter Batch No:");
-        student3[3] = input.next();
+        student3[3] = scan.next();
         System.out.println("This is the info for Student 3: " + Arrays.toString(student3));
 
         System.out.println("-------------------------------");
@@ -45,7 +45,7 @@ public class StudentInformation {
 
         for (int i = 0; i < 4; i++) {        // for (int i = 0; i < questions.length; i++) {    --- >  you can do this as well.
             System.out.println(questions[i]);   // reading each element of the questions arrays
-            student4[i] = input.next();       // assigning the Scanner input (users input) onto student4 array
+            student4[i] = scan.next();       // assigning the Scanner input (users input) onto student4 array
         }
         System.out.println("This is the info for Student 4: " + Arrays.toString(student4));
 

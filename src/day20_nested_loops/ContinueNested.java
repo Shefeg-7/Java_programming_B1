@@ -3,7 +3,7 @@ package day20_nested_loops;
 public class ContinueNested {
     public static void main(String[] args) {
 
-    }    for (int i = 0; i < 3; i++) {
+    }  /*  for (int i = 0; i < 3; i++) {
 
         System.out.println("i: " + i);
 
@@ -24,4 +24,6 @@ public class ContinueNested {
 
 
     } //OUTER LOOP ends
+}
+*/
 }

@@ -1,4 +1,6 @@
-package My_Util;
+package day24_office_hours;
+
+import My_Util.StringUtil;
 
 public class UsingStringUtil {
 
