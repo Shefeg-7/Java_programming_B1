@@ -43,7 +43,31 @@ public class StringUtil {
         return count;
 
     }
+
+    /**
+     * This method accepts String
+     * And returns only unique characters as a String
+     */
+    public static String uniqueCharacters (String str) {
+        String checked = "";
+        String unique = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            if (!checked.contains(str.charAt(i)+"")){
+                int count = StringUtil.frequencyOfCharacter(str, str.charAt(i));
+                checked += str.charAt(i);
+
+                if (count == 1) {
+                    unique += str.charAt(i);
+                }
+            }
+        }
+        return unique;
+    }
+
+
 }
+//... (2 lines left)
 
 
 
