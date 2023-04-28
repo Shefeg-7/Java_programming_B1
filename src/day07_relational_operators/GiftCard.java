@@ -11,10 +11,21 @@ public class GiftCard {
 
          */
         double giftCard = 300;
-        String item1= "Dior";
+        String item1 = "Dior";
         String item2 = "Channel";
-        System.out.println(" I have $" + giftCard +" worth of gift card.");
+        System.out.println("I have $" + giftCard + " worth of gift card.");
 
+
+        //giftCard = giftCard - 50;
+        giftCard -= 50;
+        System.out.println("After buying " + item1 + ", I have left " + giftCard + " amount in gift card");
+
+        giftCard -= 100;
+        System.out.println("After buying " + item2 + ", I have left " + giftCard + " amount in gift card");
+
+        // multiply gift card balance by 2.
+        giftCard *= 2;
+        System.out.println("Now I have a new balance of $" + giftCard);
 
 
     }
