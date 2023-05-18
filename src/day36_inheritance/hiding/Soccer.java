@@ -2,7 +2,7 @@ package day36_inheritance.hiding;
 
 
 
-}public class Soccer extends  Sports {
+public class Soccer extends  Sports {
 
 
     //@Override
